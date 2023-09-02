@@ -33,7 +33,7 @@ public class AddItems {
 //				driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click(); ----> This is thread method
 //				Thread.sleep(5000);
 				/*
-				 * Here we are use to steps to avoid miss locating one is using thread.sleep until it's get's normal.
+				 * Here we are use steps to avoid miss locating the locators. So  using thread.sleep until it's get's normal.
 				 * But not static locators it's not good method to write the code so we can select the locator in different method.
 				 */
 				if(j==names.length) {
